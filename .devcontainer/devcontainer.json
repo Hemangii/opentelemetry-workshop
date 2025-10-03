@@ -10,10 +10,6 @@
       }
     },
     "postCreateCommand": "pip install opentelemetry-api opentelemetry-sdk flask",
-    "forwardPorts": [8080],
-    "workspaceFolder": "/workspace",
-    "mounts": [
-      "source=${localWorkspaceFolder}/samples,target=/workspace/samples,type=bind"
-    ]
+    "forwardPorts": [8080]
   }
   
