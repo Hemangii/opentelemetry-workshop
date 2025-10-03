@@ -74,7 +74,7 @@ If you run into issues:
 - Make sure you forked the repository first
 - Refresh the page if Codespaces fails to load
 - Ask a workshop mentor for assistance
-
+And if you’re still stuck—no worries! We’ll figure it out together during the workshop. 💡✨
 ---
 
 ## 🎯 You're Ready!
