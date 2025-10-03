@@ -53,7 +53,7 @@ We’ll use **GitHub Codespaces** so you don’t need to install anything locall
 
 1. Go to **your forked repository** (e.g., `https://github.com/<your-username>/opentelemetry-workshop`)
 2. Click on the **Code** button (green button)
-![Code Button](./images/code.jpg)  
+![Code Button](./images/code.png)  
 
 3. Select the **Codespaces** tab
 4. Click **“Create codespace on main”**
