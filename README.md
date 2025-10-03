@@ -33,7 +33,7 @@ You need your own copy of the repository to work on during the workshop.
    👉 [https://github.com/Hemangii/opentelemetry-workshop](https://github.com/Hemangii/opentelemetry-workshop)
 
 2. Click the **Fork** button (top right of the page).  
-   ![Fork Button](https://docs.github.com/assets/images/help/repository/fork_button.jpg)
+   ![Fork Button](./images/fork.png)
 
 3. GitHub will create a copy of the repository under your account. You will be redirected to:  
    `https://github.com/<your-username>/opentelemetry-workshop`
@@ -53,11 +53,12 @@ We’ll use **GitHub Codespaces** so you don’t need to install anything locall
 
 1. Go to **your forked repository** (e.g., `https://github.com/<your-username>/opentelemetry-workshop`)
 2. Click on the **Code** button (green button)
-![Code Button](https://user-images.githubusercontent.com/68686262/220020607-5f71f4b3-0340-4f18-9f8e-1d5f2b07db93.jpg)  
+![Code Button](./images/code.jpg)  
+
 3. Select the **Codespaces** tab
 4. Click **“Create codespace on main”**
 
-   ![Create Codespace](https://docs.github.com/assets/images/help/codespaces/new-codespace-button.png)
+   ![Create Codespace](./images/codespaces.png)
 
 5. Wait a minute or two while the environment sets up (this may take a bit the first time).
 
