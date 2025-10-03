@@ -1,0 +1,19 @@
+{
+    "name": "OpenTelemetry Workshop",
+    "image": "mcr.microsoft.com/vscode/devcontainers/python:3.9",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "redhat.vscode-yaml"
+        ]
+      }
+    },
+    "postCreateCommand": "pip install opentelemetry-api opentelemetry-sdk flask",
+    "forwardPorts": [8080],
+    "workspaceFolder": "/workspace",
+    "mounts": [
+      "source=${localWorkspaceFolder}/samples,target=/workspace/samples,type=bind"
+    ]
+  }
+  
