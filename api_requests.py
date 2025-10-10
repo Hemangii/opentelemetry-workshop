@@ -22,7 +22,7 @@ def make_api_call(url):
         return response.json()
 
 def main():
-    url = "https://www.hku.hk/"  # Example API endpoint
+    url = "https://catfact.ninja/fact"  # Example API endpoint
     response_data = make_api_call(url)
     print(f"Response Data: {response_data}")
 
