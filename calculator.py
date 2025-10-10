@@ -11,17 +11,22 @@ trace.get_tracer_provider().add_span_processor(
 # Get a tracer
 tracer = trace.get_tracer(__name__)
 
-def multiply(x, y):
-    with tracer.start_as_current_span("multiply_span"):
-        print(f"Multiplying {x} and {y}")
-        result = x * y
+def divide(x, y):
+    with tracer.start_as_current_span("divide_span"):
+        print(f"Dividing {x} by {y}")
+        result = x / y
         return result
 
 def main():
-    a = 3
-    b = 5
-    result = multiply(a, b)
-    print(f"Result: {result}")
+    a = 6
+    b = 3
+
+    division_result = divide(a, b)
+    print(f"Division Result: {division_result}")
+
+    # Test division by zero
+    division_by_zero_result = divide(a, 0)
+    print(f"Division by Zero Result: {division_by_zero_result}")
 
 if __name__ == "__main__":
     main()
