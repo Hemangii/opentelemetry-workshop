@@ -9,7 +9,7 @@
         ]
       }
     },
-    "postCreateCommand": "pip install opentelemetry-sdk requests",
+    "postCreateCommand": "pip install  opentelemetry-api opentelemetry-sdk requests",
     "forwardPorts": [8080]
   }
   
